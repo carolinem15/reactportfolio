@@ -21,7 +21,7 @@ function Projects() {
         <Row>
           <Col size="md-12">
           <p>
-          caroline-manson19
+           caroline-manson19
           </p>
             <p>
             carolinem15

@@ -1,5 +1,4 @@
 import React from "react";
-// import background from './img/background.jpeg';
 import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
@@ -8,9 +7,7 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero style={{
-      backgroundImage: "url(/background.jpeg)"
-      }}>
+      <Hero >
         <h1>Caroline Manson</h1>
       </Hero>
       <Container style={{ marginTop: 30 }}>
@@ -25,7 +22,7 @@ function About() {
               My name is Caroline Manson.
             </p>
             <p>
-              I am a budding full stack developer.
+              I recently graduated from University of Colorado at Boulder and I currently work at the Humane Society of Charlotte. I am a budding full stack developer with an interest in UI/UX development.
             </p>
             <p>
               Welcome to my portfolio.

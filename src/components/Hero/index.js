@@ -4,7 +4,8 @@ import "./style.css";
 function Hero(props) {
   return (
     <div className="hero text-center" style={{
-      backgroundImage: "url(/background.jpeg)" }}>
+      backgroundImage: "url(/background.jpeg)"
+      }}>
       {props.children}
     </div>
   );

@@ -4,7 +4,7 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
       <Link className="navbar-brand" to="/">
         Caroline Manson
       </Link>
