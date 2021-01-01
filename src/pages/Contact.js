@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-solid-svg-icons'
-import { faGithubsquare } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import Container from "../components/Container";
 import Hero from "../components/Hero";
 import Row from "../components/Row";
@@ -25,7 +25,7 @@ function Contact() {
           <FontAwesomeIcon icon={faLinkedin} /> caroline-manson19
           </p>
             <p>
-            <FontAwesomeIcon icon={faGithubsquare} />carolinem15
+            <FontAwesomeIcon icon={faGithub} /> carolinem15
             </p>
           </Col>
         </Row>
