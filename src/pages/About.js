@@ -1,4 +1,5 @@
 import React from "react";
+// import background from './img/background.jpeg';
 import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
@@ -7,7 +8,9 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero backgroundImage="https://www.dropbox.com/s/zmfrn92tpve454b/background.jpeg?dl=0">
+      <Hero style={{
+      backgroundImage: "url(/background.jpeg)"
+      }}>
         <h1>Caroline Manson</h1>
       </Hero>
       <Container style={{ marginTop: 30 }}>
