@@ -11,20 +11,15 @@ function Contact() {
   return (
     <div>
       <Header backgroundImage="https://www.dropbox.com/s/zmfrn92tpve454b/background.jpeg?dl=0">
-        <h1>Caroline Manson</h1>
+        <h2>Find me on social media!</h2>
       </Header>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>Find me on social media!</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
-          <p>
+          <p className="text-center">
           <FontAwesomeIcon icon={faLinkedin} /> caroline-manson19
           </p>
-            <p>
+            <p className="text-center">
             <FontAwesomeIcon icon={faGithub} /> carolinem15
             </p>
           </Col>

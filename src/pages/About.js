@@ -8,7 +8,6 @@ function About() {
   return (
     <div>
       <Header >
-        <h1>Caroline Manson</h1>
       </Header>
       <Container style={{ marginTop: 30 }}>
         <Row>
