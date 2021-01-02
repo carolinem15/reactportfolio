@@ -6,7 +6,6 @@ import "./style.css";
 function Navbar() {
   return (
     <div>
-    <HashRouter basename="/reactportfolio">
     <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
       <Link className="navbar-brand" to="/">
         Caroline Manson
@@ -46,7 +45,6 @@ function Navbar() {
           </li>
         </ul> 
       </nav>
-      </HashRouter>
     </div>
   );
 }
