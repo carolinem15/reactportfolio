@@ -1,15 +1,6 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 
-const styles = {
-    footerStyle: {
-        background: "lavender",
-        textAlign: "center",
-        left: 0,
-        bottom: 0
-    }
-};
-
 function Project(props) {
   return (
     <Card >
