@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import "./style.css";
 
 function Navbar() {
   return (
     <div>
-    <BrowserRouter basename="/reactportfolio"/>
+    <BrowserRouter basename="/reactportfolio">
     <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
       <Link className="navbar-brand" to="/">
         Caroline Manson
@@ -44,7 +45,8 @@ function Navbar() {
             </Link>
           </li>
         </ul> 
-    </nav>
+      </nav>
+      </BrowserRouter>
     </div>
   );
 }
