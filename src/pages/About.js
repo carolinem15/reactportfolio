@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/Hero";
+import Header from "../components/Header";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
@@ -7,9 +7,9 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero >
+      <Header >
         <h1>Caroline Manson</h1>
-      </Hero>
+      </Header>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
