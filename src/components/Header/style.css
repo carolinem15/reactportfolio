@@ -1,5 +1,6 @@
 .hero {
   height: 500px;
+  background-image: url(https://carolinem15.github.io/reactportfolio/background.jpeg);
   background-size: cover;
   background-position: center;
   position: relative;
