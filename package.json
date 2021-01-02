@@ -2,7 +2,7 @@
   "name": "sandbox",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://carolinem15.github.io/reactportfolio/About",
+  "homepage": "https://carolinem15.github.io/reactportfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
