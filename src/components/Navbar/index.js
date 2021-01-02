@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import "./style.css";
 
 function Navbar() {
   return (
     <div>
-    
+    <HashRouter basename="/reactportfolio">
     <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
       <Link className="navbar-brand" to="/">
         Caroline Manson
@@ -46,7 +46,7 @@ function Navbar() {
           </li>
         </ul> 
       </nav>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
