@@ -4,11 +4,12 @@ import "./style.css";
 
 function Navbar() {
   return (
+    <div>
+    <BrowserRouter basename="/reactportfolio"/>
     <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
       <Link className="navbar-brand" to="/">
         Caroline Manson
       </Link>
-      <div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
@@ -42,9 +43,9 @@ function Navbar() {
               Contact
             </Link>
           </li>
-        </ul>
-      </div>
+        </ul> 
     </nav>
+    </div>
   );
 }
 
