@@ -4,7 +4,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import Container from "../components/Container";
 import Header from "../components/Header";
-import Row from "../components/Row";
 import Col from "../components/Col";
 
 function Contact() {
@@ -14,7 +13,7 @@ function Contact() {
         <h2>Find me on social media!</h2>
       </Header>
       <Container style={{ marginTop: 30 }}>
-        <Row>
+        <div className="row">
           <Col size="md-12">
           <p className="text-center">
           <FontAwesomeIcon icon={faLinkedin} /> caroline-manson19
@@ -23,7 +22,7 @@ function Contact() {
             <FontAwesomeIcon icon={faGithub} /> carolinem15
             </p>
           </Col>
-        </Row>
+        </div>
       </Container>
     </div>
   );

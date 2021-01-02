@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
 import Container from "../components/Container";
-import Row from "../components/Row";
 import Col from "../components/Col";
 
 function About() {
@@ -10,12 +9,12 @@ function About() {
       <Header >
       </Header>
       <Container style={{ marginTop: 30 }}>
-        <Row>
+        <div className="row">
           <Col size="md-12">
             <h1>Hello!</h1>
           </Col>
-        </Row>
-        <Row>
+        </div>
+        <div className="row">
           <Col size="md-12">
             <p>
               My name is Caroline Manson.
@@ -27,7 +26,7 @@ function About() {
               Welcome to my portfolio.
             </p>
           </Col>
-        </Row>
+        </div>
       </Container>
     </div>
   );

@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../components/Container";
 import Header from "../components/Header";
-import Row from "../components/Row";
 import Col from "../components/Col";
 import Project from "../components/Project";
 
@@ -12,7 +11,7 @@ function Projects() {
         <h2>Featured Projects</h2>
       </Header>
       <Container style={{ marginTop: 30 }}>
-        <Row>
+        <div className="row">
           <Col size="md-4">
           <Project
           title="README Generator"
@@ -37,8 +36,8 @@ function Projects() {
           >
           </Project>
           </Col>
-        </Row>
-        <Row>
+        </div>
+        <div className="row">
         <Col size="md-4">
         <Project
           title="Template Engine"
@@ -63,7 +62,7 @@ function Projects() {
           >
           </Project>
           </Col>
-        </Row>
+        </div>
       </Container>
     </div>
 
