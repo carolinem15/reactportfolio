@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -9,7 +9,8 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename="/reactportfolio">
+    <Router>
       <div>
         <Navbar sticky="top" />
         <Wrapper>
@@ -21,7 +22,8 @@ function App() {
          <Footer />
       </div>
      
-    </HashRouter>
+    </Router>
+    </BrowserRouter>
   );
 }
 
