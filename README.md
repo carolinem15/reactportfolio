@@ -4,7 +4,7 @@
 
 ## Description
 
-This app is my professional portfolio using React.js, Reactstrap, and React Router. The purpose of this assignment is to use what we have learned about React so far to craft a unique professional portfolio. Although React has a bit of a learning curve, I thoroughly enjoyed digging into some documentation to learn different methods of styling, passing through props, and navigation. In the future, I plan on adding the projects that I am most proud of to my Projects page, link a messaging system that allows people to get in touch with me directly on my Contact page, and including some more details in my About page.
+This app is my professional portfolio using React.js, Reactstrap, and React Router. The purpose of this assignment is to use what we have learned about React so far to craft a unique professional portfolio. Although React has a bit of a learning curve, I thoroughly enjoyed digging into some documentation to learn different methods of styling, passing through props, and navigation. I had some difficulties getting the routes working properly once I deployed to Github Pages, but I was able to fix it using HashRouter. In the future, I plan on adding the projects that I am most proud of to my Projects page, link a messaging system that allows people to get in touch with me directly on my Contact page, and including some more details in my About page.
 
 ## Installation
 
